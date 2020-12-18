@@ -1,0 +1,21 @@
+{
+  "privacy_policy": "Privacy Policy",
+  "terms_use": "Terms of Use",
+  "cookies_settings": "Change settings",
+  "accept_only_necessary": "Accept only necessary",
+  "accept_all": "Accept all",
+  "accept_selected": "Accept selected",
+  "necessary_trackers": "Necessary trackers",
+  "personalization_trackers": "Personalization trackers",
+  "analytical_trackers": "Analytical trackers",
+  "advertising_trackers": "Advertising/marketing trackers",
+  "social_trackers": "Social media trackers",
+  "cookies_description": "We use ours and third-party cookies, web beacons and other similar technologies on our websites to enhance and personalize your online experience while visiting our websites as well as deliver personalized ads, provide social media features and to analyses our traffic.",
+  "cookies_moreinfo": "To learn more about how we use cookies and protect your personal information please read our",
+  "by_continue": "By continuing to browse our site, you accept our",
+  "necessary_trackers_con": "Enable core functionality of a website such as security, network management and accessibility. These trackers may be disabled through individual browser settings, but doing so may impact the functionality and usability of the website.",
+  "personalization_trackers_con": "Allow the website to identify prior users and tailor the website experience to match user needs and preferences",
+  "analytical_trackers_con": "Aid in improving the website by collecting information on how users interact with the site. This includes third party analytical tools, such as Google Analytics.",
+  "advertising_trackers_con": "Track user activity and sessions so that the website can deliver a more personalized service and provide relevant advertisements.",
+  "social_trackers_con": "Enable the user to allow you to share certain content form the website on social media like Facebook and Twitter."
+}
