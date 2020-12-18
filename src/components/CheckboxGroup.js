@@ -40,7 +40,7 @@ export default function CheckboxGroup(props) {
 
   useEffect(() => {
     const filterArr = [checkBoxs[0]];
-    for (let i = 0; i < Object.keys(trackers).length; i += 1) {
+    for (let i = 0; i < Object.keys(trackers).length; i++) {
       let filter;
       if (Object.values(trackers)[i]) {
         filter = checkBoxs.filter((item) => item.name === Object.keys(trackers)[i]);

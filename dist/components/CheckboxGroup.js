@@ -116,7 +116,7 @@ function CheckboxGroup(props) {
       }
     };
 
-    for (var i = 0; i < Object.keys(trackers).length; i += 1) {
+    for (var i = 0; i < Object.keys(trackers).length; i++) {
       _loop(i);
     }
 
