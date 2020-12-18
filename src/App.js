@@ -21,7 +21,7 @@ function App(props) {
   const [initial, setInitial] = useState(true);
   const [cookies, setCookie] = useCookies(['personalization', 'analytical', 'marketing', 'socialMedia']);
   const isCookieSet = Object.keys(cookies).length > 0;
-  const { language, trackers } = props;
+  const { lang, trackers } = props;
   const { t } = useTranslation();
 
   const settingCookies = () => {
@@ -29,7 +29,7 @@ function App(props) {
   };
 
   useEffect(() => {
-    localStorage.setItem('language', language);
+    localStorage.setItem('language', lang);
   }, []);
 
   const handleSelectedCookie = (state) => {
@@ -110,17 +110,17 @@ function App(props) {
 }
 
 App.defaultProps = {
-  language: 'en',
+  lang: 'en',
   trackers: {
-    personalization: true,
-    analytical: true,
-    marketing: true,
-    socialMedia: true,
+    personalization: false,
+    analytical: false,
+    marketing: false,
+    socialMedia: false,
   },
 };
 
 App.propTypes = {
-  language: PropTypes.string,
+  lang: PropTypes.string,
   trackers: PropTypes.shape({
     personalization: PropTypes.bool,
     analytical: PropTypes.bool,
